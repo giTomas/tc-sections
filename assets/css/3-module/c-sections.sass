@@ -1,0 +1,104 @@
+
+.c-sections
+  max-width: 990px
+  margin: 0 auto
+  // padding: calc(45px + 64px) 0 45px
+  padding: 45px 0
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+
+.c-section
+  width: 300px
+  height: 200px
+  position: relative
+  // z-index: 5
+  margin: 15px
+  overflow: hidden
+  box-shadow: 0 0 6px rgba(black, 0.7)
+  &:hover
+   .c-section__background
+      // transform: scale3d(1.1, 1.1, 1.1)
+      transform: scale(1.1)
+
+.c-section__background
+  width: 100%
+  height: 100%
+  border-radius: 2px
+  transition: transform 0.22s ease-out
+  // &:hover,
+  // &:focus
+    // transform: scale3d(1.1, 1.1, 1.1)
+    transform: scale(1.1)
+
+.c-section:nth-child(1)
+  .c-section__background
+    background-image: url('img/section-img/c1.jpeg')
+.c-section:nth-child(2)
+  .c-section__background
+    background-image: url('img/section-img/c2.jpeg')
+.c-section:nth-child(3)
+  .c-section__background
+    background-image: url('img/section-img/c3.jpeg')
+.c-section:nth-child(4)
+  .c-section__background
+    background-image: url('img/section-img/c4.jpeg')
+.c-section:nth-child(5)
+  .c-section__background
+    background-image: url('img/section-img/c5.jpeg')
+.c-section:nth-child(6)
+  .c-section__background
+    background-image: url('img/section-img/c6.jpg')
+.c-section:nth-child(7)
+  .c-section__background
+    background-image: url('img/section-img/c7.jpg')
+.c-section:nth-child(8)
+  .c-section__background
+    background-image: url('img/section-img/c8.jpeg')
+.c-section:nth-child(9)
+  .c-section__background
+    background-image: url('img/section-img/c9.jpg')
+.c-section:nth-child(10)
+  .c-section__background
+    background-image: url('img/section-img/c10.jpg')
+.c-section:nth-child(11)
+  .c-section__background
+    background-image: url('img/section-img/c11.jpg')
+
+// .c-section:last-of-type
+  margin-right: auto
+
+.c-section__name
+  position: absolute
+  // width: 100%
+  // top: 50%
+  // left: 50%
+  bottom: 0
+  left: 0
+  // transform: translate(-50%, -50%)
+  // color: black
+  color: white
+  // font-variant: small-caps
+  // font-weight: 600
+  // padding: 0.25em
+  // border-top: 2px solid white
+  // border-right: 2px solid white
+  // background-color: #795548
+  // background-color: rgba(white, 0.7)
+  font-family: sans-serif
+  background-color: rgba(white, 0)
+  transition: all 0.22s ease-out
+
+  &:hover
+    // background-color: lighten(#795548, 15%)
+    color: black
+    width: 100%
+    height: 100%
+    background-color: rgba(white, 0.6)
+
+.c-section__name--title
+  font-size: 2rem
+  padding: 0.25em
+  position: absolute
+  left: 0
+  bottom: 0

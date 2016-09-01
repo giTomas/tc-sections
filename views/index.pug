@@ -1,0 +1,84 @@
+doctype html
+html(lang="sk")
+  head
+    meta(charset="UTF-8")
+    meta(name="description", content="responsive navigation")
+    meta(name="author", content="giTo")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title index
+    link(rel="stylesheet", href="main.css")
+  body
+    nav#js-nav.c-nav
+      .c-nav__title
+        h2 Terra Carpathica
+      .c-nav__ctrls
+        #js-nav-open.c-nav__ctrls--open
+          svg(fill="#000000", height="36", viewBox="0 0 24 24", width="36", xmlns="http://www.w3.org/2000/svg")
+           path(d="M0 0h24v24H0z", fill="none")
+           path(d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z")
+        #js-nav-close.c-nav__ctrls--close
+          svg(fill="#000000", height="36", viewBox="0 0 24 24" width="36", xmlns="http://www.w3.org/2000/svg")
+           path(d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z")
+           path(d="M0 0h24v24H0z", fill="none")
+      ul#js-menu.c-nav__list
+        li.c-nav__list--item
+          a.c-nav__link(href="/") Home
+        li.c-nav__list--item
+          a.c-nav__link(href="/") About
+        li.c-nav__list--item
+          a.c-nav__link(href="/") Contact
+  header#js-banner.c-article-banner
+  main.c-background
+    #js-sections.c-sections
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia1
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia2
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia3
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia4
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia5
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia6
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia7
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia8
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia9
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia10
+      a(href="/").c-section
+        .c-section__background
+        .c-section__name
+          h2.c-section__name--title Sekcia11
+
+
+
+
+
+
+    script(src="js/TweenMax.min.js")
+    script(src="js/navigation.js")
